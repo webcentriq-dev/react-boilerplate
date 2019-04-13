@@ -5,7 +5,6 @@ export interface Props {
   match: {
     url: string;
   };
-  enthusiasmLevel?: number;
 }
 
 export function Topics({ match }: Props) {

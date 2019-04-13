@@ -11,6 +11,9 @@ export interface DecrementEnthusiasm {
 export type EnthusiasmAction = IncrementEnthusiasm | DecrementEnthusiasm;
 
 export function incrementEnthusiasm(): IncrementEnthusiasm {
+  console.log(
+    'incrementEnthusiasm',
+  );
   return {
     type: constants.INCREMENT_ENTHUSIASM,
   };

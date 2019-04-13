@@ -11,3 +11,24 @@
   font-size: 40px;
   min-width: 50px;
 }
+.links li {
+  border-radius: 3px;
+  background-color: #ccc;
+  margin: 0 10px;
+  list-style: none;
+  float: left;
+  padding: 10px;
+}
+.links li a {
+  text-decoration: none;
+  color: black;
+}
+.links{
+  width: 100%;
+  display: inline-block;
+}
+.content{
+  margin: 0 auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}

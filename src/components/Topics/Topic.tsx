@@ -1,11 +1,11 @@
 import * as React from 'react';
 
 export interface Props {
-    match:{
-        params: {
-            topicId : number;
-        }
-    }
+  match:{
+    params: {
+      topicId : number;
+    },
+  };
 }
 export default ({ match }: Props) => (
     <div>
