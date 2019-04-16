@@ -26,6 +26,11 @@
 		"@types/react-dom": "^16.8.2",
 		"hoist-non-react-statics": "^3.3.0",
 		"tslint-config-airbnb": "^5.11.1",
-		"typescript": "^3.4.3"
+		"typescript": "^3.4.3",
+		"prettier": "^1.17.0",
+		"tslint": "^5.15.0",
+		"tslint-config-prettier": "^1.18.0",
+		"tslint-config-standard": "^8.0.1",
+		"tslint-react": "^4.0.0"
 	}
 }

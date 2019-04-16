@@ -1,48 +1,27 @@
 # Denali Client Project
 
-## This project is developed with `TypeScript`
+## This project is based on Create React App + TypeScript
 
-This project was bootstrapped with [Create React App - TypeScript version](https://github.com/Microsoft/TypeScript-React-Starter).
+## Quick Overview
 
-## Running the project
+### `npm start` or `yarn start`
 
-Running the project is as simple as running
+Runs the app in development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-```sh
-npm run start
-```
+### `npm run build` or `yarn build`
 
-This runs the `start` script specified in our `package.json`, and will spawn off a server which reloads the page as we save our files.
-Typically the server runs at `http://localhost:3000`, but should be automatically opened for you.
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-This tightens the iteration loop by allowing us to quickly preview changes.
+The build is minified and the filenames include the hashes.<br>
 
-## Testing the project
+### `docker build`
 
-Testing is also just a command away:
+docker configuration is also included and you can do the following:</br>
+`yarn docker-build` or `npm run docker-build` for building the container.</br>
+`yarn docker-run` or `npm run docker-run` to boot up your container.
 
-```sh
-npm run test
-```
+docker included nginx with our custom configuration, so after `docker-run` finished you only need to route to [http://localhost:8000](http://localhost:8000)
 
-This command runs Jest, an incredibly useful testing utility, against all files whose extensions end in `.test.ts` or `.spec.ts`.
-Like with the `npm run start` command, Jest will automatically run as soon as it detects changes.
-If you'd like, you can run `npm run start` and `npm run test` side by side so that you can preview changes and test them simultaneously.
-
-## Creating a production build
-
-When running the project with `npm run start`, we didn't end up with an optimized build.
-Typically, we want the code we ship to users to be as fast and small as possible.
-Certain optimizations like minification can accomplish this, but often take more time.
-We call builds like this "production" builds (as opposed to development builds).
-
-To run a production build, just run
-
-```sh
-npm run build
-```
-
-This will create an optimized JS and CSS build in `./build/static/js` and `./build/static/css` respectively.
-
-You won't need to run a production build most of the time,
-but it is useful if you need to measure things like the final size of your app.
+if there was any question feel free to ask or call me.

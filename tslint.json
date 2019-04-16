@@ -1,11 +1,22 @@
 {
+  "defaultSeverity": "error",
   "extends": [
+    "tslint:recommended",
+    "tslint-config-standard",
+    "tslint-react",
+    "tslint-config-prettier",
     "tslint-config-airbnb"
   ],
-  "defaultSeverity": "warning",
-  "rules":{
-    
+  "jsRules": {},
+  "rules": {
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "member-ordering": false,
+    "member-access": false,
+    "jsx-no-lambda": false,
+    "jsx-boolean-value": false
   },
+  "rulesDirectory": [],
   "linterOptions": {
     "exclude": [
       "config/**/*.js",
